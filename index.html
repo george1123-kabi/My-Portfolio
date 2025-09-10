@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>George's Portfolio</title>
+
+    <script
+      src="https://kit.fontawesome.com/adc08a0b1b.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/adc08a0b1b.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!-- Navigation-->
+    <!-- smalldiv navbar -->
+    <!-- <section class="nav" id="navbar">
+      <a class="font-semibold" href="#">GEORGE</a>
+      <button class="nav-toggle" aria-label="Open navigation">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+      <ul class="flex gap-5 nav-links">
+        <li><a href="#hero-content">Home</a></li>
+        <li><a href="#about-section">About</a></li>
+        <li><a href="#skill-Section">Skills</a></li>
+        <li><a href="#contact-section">contact</a></li>
+      </ul>
+      <button type="button" class="cv-button">Download CV</button>
+    </section> -->
+    <!-- ...existing code... -->
+    <header id="Navigation">
+      <section class="nav" id="navbar">
+        <a class="font-semibold" href="#">GEORGE</a>
+        <ul class="flex gap-5">
+          <li>
+            <a href="#hero-content">Home</a>
+          </li>
+          <li>
+            <a href="#about-section">About</a>
+          </li>
+          <li>
+            <a href="#skill-Section">Skills</a>
+          </li>
+          <li>
+            <a href="#contact-section">contact</a>
+          </li>
+        </ul>
+        <button type="button" class="cv-button">Download CV</button>
+      </section>
+    </header>
+
+    <main>
+      <!--hero section-->
+      <section class="hero" id="hero-content">
+        <div class="hero-content">
+          <h4>Hi There!</h4>
+          <h2>I'm <span>GEORGE</span></h2>
+          <p>
+            I’m a passionate Web Developer who loves turning ideas into clean,
+            functional, and engaging digital experiences. I specialize in
+            building responsive websites and applications that don’t just look
+            great—they solve real problems and make an impact. From sleek
+            designs to powerful code, my goal is to create web solutions that
+            inspire people and help businesses grow.<br />
+            Let’s build something amazing together.<span>🚀</span>
+          </p>
+          <div class="socials">
+            <a class="social" href="https://www.facebook.com/george3ms" name="Facebook" target="_blank"
+              ><i class="fa-brands fa-facebook"></i
+            ></a>
+            <a class="social" href="https://www.instagram.com/george_frd_of_u/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a class="social" href="https://github.com/george1123-kabi" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a class="social" href="https://x.com/georgemiller000" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+          </div>
+          <a class="hire-me" href="#contact-section">Hire me</a>
+          <button type="button" class="cv-button">Download CV</button>
+        </div>
+        <div>
+          <img
+            src="./assets/resume/img1.jpg" width="250px" height="300px" style="border-radius: 25%;"
+          />
+        </div>
+      </section>
+
+      <!--about section-->
+      <section class="bg" id="about-section">
+        <h2
+          style="
+            padding-top: 20px;
+            font-size: 20px;
+            color: aqua;
+            text-transform: uppercase;
+          "
+        >
+          About Me!!
+        </h2>
+        <section
+          class="about-section"
+          data-aos="fade-right"
+          style="transition: 0.5s"
+        >
+          <div>
+            <img
+              src="./assets/resume/img2.jpg" width="350px" height="400px"
+            />
+          </div>
+          <div data-aos="fade-left" style="transition: 0.5s">
+            <ul>
+              <li><strong>Name</strong>:<span>George Raj Kabilan</span></li>
+              <li><strong>Age</strong>:<span>25</span></li>
+              <li><strong>Address</strong>:<span>Cumbum,Theni</span></li>
+              <li>
+                <strong>Emails</strong>:<span
+                  >georgemiller000003@gmail.com</span
+                >
+              </li>
+              <li><strong>Phone No</strong>:<span>+91 8270013857</span></li>
+              <br />
+              <li>
+                <button class="cv-button">Download CV</button>
+              </li>
+            </ul>
+          </div>
+        </section>
+      </section>
+      <section class="alterBg" id="skill-Section">
+        <!--skills and education-->
+        <h2
+          style="
+            padding-top: 20px;
+            font-size: 20px;
+            color: aqua;
+            text-transform: uppercase;
+          "
+        >
+          My Skills!!
+        </h2>
+        <div class="skill-Section">
+          <div class="front" data-aos="fade-right" style="transition: 0.5s">
+            Front-End
+          </div>
+          <div class="back" data-aos="fade-left" style="transition: 0.5s">
+            Backend
+          </div>
+          <!-- <div class="hobbies">Hobbies</div> -->
+        </div>
+      </section>
+
+      <section
+        class="bg front-data"
+        style="display: none; transition: 1.5s"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
+        <h2
+          style="
+            padding-top: 20px;
+            font-size: 20px;
+            color: aqua;
+            text-transform: uppercase;
+          "
+        >
+          Front end skills!!
+        </h2>
+        <div>
+          <div class="skill"><i class="fa-brands fa-html5"></i> HTML5</div>
+          <div class="skill"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+          <div class="skill"><i class="fa-brands fa-js"></i> JavsaScript (ES6+)</div>
+          <div class="skill"><i class="fa-brands fa-react"></i> React.js</div>
+          <div class="skill"><i class="fa-brands fa-bootstrap"></i> Bootstrap</div>
+          <div class="skill"><i class="fa-brands fa-css"></i> Tailwind CSS</div>
+          <div class="skill"><i class="fa-solid fa-window-restore"></i> Responsive Design</div>
+        </div>
+      </section>
+      <section class="bg back-data" style="display: none">
+        <h2
+          style="
+            padding-top: 20px;
+            font-size: 20px;
+            color: aqua;
+            text-transform: uppercase;
+          "
+        >
+          Backend skills!!
+        </h2>
+        <div>
+          <div class="skill"><i class="fa-brands fa-node-js"></i> Node.js</div>
+          <div class="skill"><i class="fa-solid fa-e"></i> Express.js</div>
+          <div class="skill"><i class="fa-solid fa-database"></i> MongoDB</div>
+          <div class="skill"><i class="fa-solid fa-server"></i> MySQL</div>
+          <div class="skill"> RESTful APIs</div>
+          <div class="skill"> JWT Authentication</div>
+          <div class="skill"><i class="fa-brands fa-git-alt"></i> Git & GitHub</div>
+        </div>
+      </section>
+
+      <section id="contact-section">
+        <h2>To contact me..</h2>
+        <form class="contact-section">
+          <div>
+            <input type="text" placeholder="Name" />
+          </div>
+          <div>
+            <input type="email" placeholder="Email" />
+          </div>
+          <div>
+            <input type="text" placeholder="subject" />
+          </div>
+          <div>
+            <textarea type="text" placeholder="write something..."></textarea>
+          </div>
+          <button>Message me</button>
+        </form>
+      </section>
+      <!-- Modal for contact verification -->
+      <div id="contact-modal" class="modal" style="display: none">
+        <div class="modal-content">
+          <h3>Verify Your Details</h3>
+          <div id="modal-details"></div>
+          <div class="modal-actions">
+            <button id="proceed-btn">Proceed</button>
+            <button id="retype-btn">Retype</button>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </main>
+    <!--end-->
+
+    <footer>
+      <span>Copyright &copy; George.| All Rights Reserved.</span>
+    </footer>
+    <link rel="stylesheet" href="main.css" />
+    <script src="./assets/js/main.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+
+  </body>
+</html>
